@@ -59,11 +59,10 @@ class SingleList{
     }
 }
 
-var myList = new SingleList();
-myList.add(5);
-myList.add(7);
-myList.add(11);
-myList.add(666);
-myList.displayValues();
-console.log(myList.length());
-console.log(myList);
+var diplayList = new SingleList();
+
+for(var x = 0; x < 25; x++){
+    diplayList.push('Person' + x);
+}
+
+console.log(diplayList.contains());

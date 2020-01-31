@@ -59,6 +59,14 @@ class SingleList{
     }
 }
 
+var sLine= new SingleList();
+    var first = list.push("person number " );
+    for(var x = 1; x<500; x++){
+        sLine.push('person number ');
+    }sLine.print();
+    
+console.log('There are ' + list.contains(first));
+
 var myList = new SingleList();
 myList.add(5);
 myList.add(7);
